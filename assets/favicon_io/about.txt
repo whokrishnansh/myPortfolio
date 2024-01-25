@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Poppins
-- Font Author: Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
-- Font Source: http://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJDUc1NECPY.ttf
+- Font Title: Wellfleet
+- Font Author: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com), with Reserved Font Name Wellfleet
+- Font Source: http://fonts.gstatic.com/s/wellfleet/v22/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
