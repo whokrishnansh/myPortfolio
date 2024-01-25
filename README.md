@@ -9,4 +9,10 @@
 - Added Google Tag script for [Google Analytics](https://analytics.google.com)
 - Online meeting integration by [Calendly](https://calendly.com/)
 
+### Landing Page Light
 
+![preview img](./assets/snaps/light.png)
+
+### Landing Page Dark
+
+![preview img](./assets/snaps/dark.png)
