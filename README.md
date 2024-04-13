@@ -1,5 +1,5 @@
 # Fahad Memon's Responsive Portfolio Website
-## Website URL: https://circularfahad.netlify.app/
+## Website URL: https://circularfahad.netlify.app/ && https://circularfahad.tech/
 
 - The design is based on [Erol Bicer](https://github.com/nucerl)
 - The email service provider is [EmailJs](https://www.emailjs.com/)
