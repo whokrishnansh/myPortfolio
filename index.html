@@ -13,16 +13,6 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!--==================== EMAIL SERVICE ====================-->
-        <!-- Sweet Alert -->
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <!-- Email.JS -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
-            })();
-        </script>
 
         <!--==================== CALENDAR SERVICE ====================-->
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -132,13 +122,15 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.linkedin.com/in/fahad-sajid/" target="_blank" class="home__social-icon">
+                            <a href="https://www.linkedin.com/in/krishnanshsharma/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
-                            <a href="https://www.researchgate.net/profile/Fahad-Memon" target="_blank" class="home__social-icon">
-                                <i class="uil uil-book-open"></i>
+    
+                            <a href="https://www.youtube.com/@EpicBharatOfficial" target="_blank" class="home__social-icon">
+                                <i class="uil uil-youtube"></i>
                             </a>
-                            <a href="https://github.com/fahad-sajid" target="_blank" class="home__social-icon">
+    
+                            <a href="https://github.com/whokrishnansh" target="_blank" class="home__social-icon">
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
@@ -769,134 +761,11 @@
                         </div>
                     </div>
 
-                    <!--==================== PROJECTS 4 ====================-->
-                    <div class="projects__content">
-                        <div>
-                            <i class="uil uil-swatchbook projects__icon"></i>
-                            <h3 class="projects__title">MOH-Ariel Gas Compressor</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link projects__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="projects__modal">
-                            <div class="projects__modal-content">
-                                <h4 class="projects__modal-title">Major Overhauling (MOH) of Ariel Gas Compressor by M/s. GenCom</h4>
-                                <i class="uil uil-times projects__modal-close"></i>
-
-                                <ul class="projects__modal-projects grid">
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Removed and transported the compressor components from Mazarani gas field to GenCom workshop in Karachi for refurbishment.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Refurbished the compressor components at the workshop by replacing, reconditioning, honing, grinding, checking, and testing them.</p>
-                                    </li>
-                                        
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Installed and tested the refurbished compressor components at the site and filled lube oil in crankcase.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Performed pre-startup inspection and trial run of the compressor and monitored its performance and efficiency parameters.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Troubleshot and resolved the fumes and smoke issue from the process vent during the performance test-run.</p>
-                                    </li>
-
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     
-                    <!--==================== PROJECTS 5 ====================-->
-                    <div class="projects__content">
-                        <div>
-                            <i class="uil uil-swatchbook projects__icon"></i>
-                            <h3 class="projects__title">University-FYP</h3>
-                        </div>
+                    
+                                           
 
-                        <span class="button button--flex button--small button--link projects__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="projects__modal">
-                            <div class="projects__modal-content">
-                                <h4 class="projects__modal-title">Design, Fabrication and Analysis of Dual Axis Solar Tracking System.</h4>
-                                <i class="uil uil-times projects__modal-close"></i>
-
-                                <ul class="projects__modal-projects grid">
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Designed and fabricated a dual axis solar tracking system using Arduino, servo motors, and solar panel, which tracks the sun’s position based on the coordinates of location and time.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Programmed the Arduino to control the servo motors and adjust the solar panel orientation to follow the sun’s position using a mathematical model.</p>
-                                    </li>
-                                        
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Analyzed the performance and efficiency of the dual axis solar tracking system using MATLAB and found that it was 35% more efficient than a fixed-tilted PV system.</p>
-                                    </li>
-                                   
-                                    
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>                       
-
-                    <!--==================== PROJECTS 6 ====================-->
-                    <div class="projects__content">
-                        <div>
-                            <i class="uil uil-swatchbook projects__icon"></i>
-                            <h3 class="projects__title">Farmloop-Website</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link projects__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="projects__modal">
-                            <div class="projects__modal-content">
-                                <h4 class="projects__modal-title">Integrating Green Valuechain - Farmloop Enabling the Circular Economy</h4>
-                                <i class="uil uil-times projects__modal-close"></i>
-
-                                <ul class="projects__modal-projects grid">
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>Farmloop is a platform that connects farmers, processors, and consumers to transform waste into clean energy and sustainable solutions, creating a marketplace that redefines the future of energy.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>The project’s UI was designed using Figma and the website was developed on React, a popular JavaScript library for building user interfaces.</p>
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        <i class="uil uil-check-circle projects__modal-icon"></i>
-                                        <p>You can visit the website here:</p>
-                                        
-                                    </li>
-                                    <li class="projects__modal-project">
-                                        
-                                        <a href="https://www.farmloop.tech/" target="_blank" class="button button--flex button--small paper__button">
-                                            website
-                                            <i class="uil uil-arrow-right button__icon"></i>
-                                        </a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div> 
+                    
              
                    
                 </div>
@@ -1061,38 +930,12 @@
                             </div>
                         </div>
                     </div>
+                    
 
-                    <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Full Name</label>
-                                <input type="text" placeholder="Enter full name" class="contact__input" id="fullName" onkeyup="validateName()">
-                                <span id="name-error" class="contact__subtitle"></span>
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" placeholder="Enter email address" class="contact__input" id="email_id" onkeyup="validateEmail()">
-                                <span id="email-error" class="contact__subtitle"></span>
-                            </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Subject</label>
-                            <input type="text" id="subject" placeholder="Enter a subject line" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" cols="0" rows="7" placeholder="Enter your message" class="contact__input" id="message" onkeyup="validateMessage()"></textarea>
-                            <span id="message-error" class="contact__subtitle"></span>
-                        </div>
-                        <div>
-                            <a onclick="return SendMail()" class="button button--flex">
-                            Send Message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
-                        </div>
-                    </form>
                 </div>
+                
             </section>
+            <img src="assets/img/Performance.jpeg" alt="Krishnansh Sharma Performance" class="performance_img">
         </main>
 
         <!--==================== FOOTER ===================-->
@@ -1125,15 +968,15 @@
                     </ul>
 
                     <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/fahad-sajid/" target="_blank" class="footer__social">
+                        <a href="https://www.linkedin.com/in/krishnanshsharma/" target="_blank" class="footer__social">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="https://www.researchgate.net/profile/Fahad-Memon" target="_blank" class="footer__social">
-                            <i class="uil uil-book-open"></i>
+                        <a href="https://www.youtube.com/@EpicBharatOfficial" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
                         </a>
 
-                        <a href="https://github.com/fahad-sajid" target="_blank" class="footer__social">
+                        <a href="https://github.com/whokrishnansh" target="_blank" class="footer__social">
                             <i class="uil uil-github-alt"></i>
                         </a>
 
