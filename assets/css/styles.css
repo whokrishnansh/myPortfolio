@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #a2faf3;
+    --container-color: #ccebff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -303,7 +303,10 @@ img {
 }
 
 .home__blob-img{
-  width: 170px;
+  width: 170px; /* Existing width */
+  object-fit: contain; /* Ensures the image fits the container without stretching */
+  object-position: top; /* Moves the image upwards */
+  transform: translateY(-20px); /* Adjusts the vertical position if necessary */
 }
 
 .home__data{
@@ -415,6 +418,7 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  margin-top: -150px;
 }
 
 .about__description{
