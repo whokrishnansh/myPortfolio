@@ -276,9 +276,15 @@ function SendMail(){
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_46xqtdq", "template_u00s6eu", params).then(function (res){
-         alert("Success! " + res.status);
-         alert("Your message has been sent successfully!");
-            swal("Success!", "Your message has been sent!", "success");
-    })
+    emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID from environment
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID from environment
+        params
+    ).then(function(res) {
+        alert("Success! " + res.status);
+        alert("Your message has been sent successfully!");
+        swal("Success!", "Your message has been sent!", "success");
+    }).catch(function(error) {
+        alert("Failed to send message: " + error);
+    });
 }
