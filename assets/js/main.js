@@ -69,7 +69,27 @@ tabs.forEach(tab =>{
         tab.classList.add('qualification__active')
     })
 })
+/*==================== VOICE-OVER SAMPLES ====================*/
 
+// Select all audio elements
+const audioElements = document.querySelectorAll('.voiceover__audio');
+
+// Variable to store the currently playing audio
+let currentAudio = null;
+
+// Add event listeners to each audio element
+audioElements.forEach((audio) => {
+    audio.addEventListener('play', function () {
+        // If there's an audio currently playing and it's not the one that just started
+        if (currentAudio && currentAudio !== audio) {
+            currentAudio.pause(); // Pause the currently playing audio
+            currentAudio.currentTime = 0; // Reset the time to start from the beginning
+        }
+
+        // Set the current audio to the one that just started playing
+        currentAudio = audio;
+    });
+});
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll('.projects__modal'),
       modalBtns = document.querySelectorAll('.projects__button'),
